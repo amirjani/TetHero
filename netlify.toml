@@ -8,5 +8,5 @@
 
 [[redirects]]
     from = "/*"
-    to = "/dist"
+    to = "/public"
     status = 200
