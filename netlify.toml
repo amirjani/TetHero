@@ -2,7 +2,6 @@
     command = "npm run build"
     base = "/"
     publish = "/dist/public"
-    command = "echo $(pwd)"
 
 [context.production]
     environment = { NODE_VERSION = "14.16.1" }
