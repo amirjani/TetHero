@@ -6,7 +6,10 @@
 [context.production]
     environment = { NODE_VERSION = "14.16.1" }
 
+[context.deploy-preview]
+    publish = "dist/"
+
 [[redirects]]
     from = "/*"
-    to = "/public"
+    to = "/index.html"
     status = 200
