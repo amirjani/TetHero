@@ -1,6 +1,7 @@
 [build]
     command = "npm install && npm run build"
     publish = "/dist/public"
+    functions = "functions"
 
 [context.production]
     environment = { NODE_VERSION = "14.16.1" }
