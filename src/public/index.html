@@ -110,6 +110,7 @@
         function fetchAllPrice() {
             fetch("/api/pricing/last-day")
                 .then(async response => {
+                    console.log("response: ", response.json());
                     const jsonResponse = await response.json()
                     const prices = jsonResponse.data.map((item , i) => {
                         //const color = `${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}`
